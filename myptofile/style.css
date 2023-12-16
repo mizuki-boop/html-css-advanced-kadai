@@ -1,0 +1,298 @@
+/* 全体 */
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1200px) {
+    /* PC用のスタイルを指定する */
+ 
+  
+/* 見出し */
+h2 {
+    font-size: 34px;
+    text-align: center;
+}
+h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 34px;
+    font-weight: bold;
+
+}
+
+.img1 {
+    margin: 10px;
+    width: 100%;
+}
+
+
+li, p {
+    font-size: 18px;
+    margin: 5px;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+
+footer {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: black;
+}
+#nav1 {
+    border: solid 1px black;
+    text-decoration: none; 
+    padding: 10px;
+}
+#nav2 {
+    padding: 10px;
+}
+
+
+
+.img2 {
+    border-radius: 50%;
+    height: 180px;
+    
+}
+/* about */
+
+#aboutpic, #aboutdes {
+    margin: 10px;
+
+}
+#about {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#aboutdes {
+    text-align: left;
+    width: 460px;
+}
+#aboutpic {
+    text-align: right;
+    width: 250px;
+    
+}
+
+/* works */
+
+.works1 {
+      text-align: right;
+      margin: 10px;
+    
+}
+.works2 {
+    text-align: center;
+    margin: 10px;
+    
+}
+.works3 {
+    text-align: left;
+    margin: 10px;
+   
+}
+
+#works {
+    display: flex;
+    justify-content: center;
+    
+}
+.nature {
+width: 220px;
+}
+.works1 > p {
+    width: 220px;
+    text-align: center;
+}
+.works2 > p {
+    width: 220px;
+    text-align: center;
+}
+.works3 > p {
+    width: 220px;
+    text-align: center;
+}
+
+}
+
+
+@media screen and (max-width:767px) {
+    /* スマホ用のスタイルを指定する */
+ 
+  
+/* 見出し */
+h2 {
+    font-size: 34px;
+    text-align: center;
+}
+h3 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 34px;
+    font-weight: bold;
+
+}
+
+.img1 {
+    margin: 10px;
+    width: 100%;
+}
+
+
+li, p {
+    font-size: 18px;
+    margin: 5px;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+
+footer {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: black;
+}
+#nav1 {
+    border: solid 1px black;
+    text-decoration: none; 
+    padding: 5px;
+    
+}
+
+#nav2 {
+    padding: 5px;
+}
+
+/* about */
+
+.img2 {
+    border-radius: 50%;
+    width: 100%;
+    align-items: center;
+    
+    
+    
+}
+h3,li {
+    width: 100%;
+}
+
+
+
+
+#about {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#aboutdes {
+   
+    max-width: 100%;
+}
+#aboutpic {
+    
+    max-width: 100%;
+    
+}
+
+/* works */
+
+.works1 {
+      text-align: center;
+      margin: 10px;
+    
+}
+.works2 {
+    text-align: center;
+    margin: 10px;
+    
+}
+.works3 {
+    text-align: center;
+    margin: 10px;
+   
+}
+
+#works {
+    display: block;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.nature {
+width: 100%;
+}
+.works1 > p {
+    
+    text-align: center;
+}
+.works2 > p {
+    
+    text-align: center;
+}
+.works3 > p {
+  
+    text-align: center;
+}
+
+}
+
+
+
+
