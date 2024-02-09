@@ -17,6 +17,12 @@ body {
   =================*/
   @media screen and (min-width: 768px) {
     /* 横幅設定 */
+    #menu-sp {
+        display: none;
+    }
+    #nav-sp {
+        display: none;
+    }
     body {
       max-width: 1080px;
       min-width: 960px;
@@ -58,61 +64,56 @@ body {
     #nav-pc>a:active {
       color: #0d0d0d;
     }
-    #menu-sp {
-      display: none;
-    }
-    #nav-sp {
-      display: none;
-    }
   }
-  /* スマホ用 */
-  @media screen and (max-width: 767px) {
-      body {
+
+  @media screen and (max-width: 767px){
+    body {
         min-width: 375px;
         margin: 0;
-      }
-      #nav-pc {
+    }
+    #nav-pc {
         display: none;
-      }
-      #menu-sp {
+    }
+    #Menu-sp {
         float: right;
         padding: 0;
-      }
-      #nav-sp {
+    }
+    #nav-sp {
         background-color: #ce933e;
         position: absolute;
         left: 0;
         top: 0;
         height: 100%;
         width: 100%;
-        z-index: 100;
         display: none;
-      }
-      #close {
+        z-index: 100;
+    }
+    #close {
         position: absolute;
         top: 20px;
         right: 20px;
-      }
-      #logo-sp {
-        margin: 80px 0px 30px 20px;
-      }
-      #nav-sp > a {
+    }
+    #logo-sp {
+        margin: 80px 0 30px 20px;
+    }
+    #nav-sp > a {
         display: block;
-      }
-      #nav-sp > a:link {
+    }
+    #nav-sp > a:link {
         color: #ffffff;
-      }
-      #nav-sp > a:visited {
+    }
+    #nav-sp > a:visited {
         color: #ffffff;
-      }
-      #nav-sp > a:hover {
+    }
+    #nav-sp > a:hover {
         color: #ffffff;
         text-decoration: underline;
-      }
-      #nav-sp > a:active {
+    }
+
+    #nav-sp > a:active {
         color: #ffffff;
-      }
-      #nav-sp > .menu {
+    }
+    #nav-sp > .menu {
         text-decoration: none;
         display: block;
         margin: 0 20px 0 20px;
@@ -121,6 +122,7 @@ body {
         background-image: url("images/arrow.png");
         background-repeat: no-repeat;
         background-position: right top;
-      }
+    }
 
+    
   }
